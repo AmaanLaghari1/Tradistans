@@ -1,0 +1,110 @@
+* {
+    /* box-sizing: border-box; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+.logo {
+    width: 80px;
+}
+
+.navbar, .navbar-nav {
+    /* height: 80px; */
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-link {
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #000;
+}
+
+.nav-link:hover {
+    background-color: rgb(13, 48, 207);
+    color: #fff;
+}
+
+.nav-item > .active {
+    background-color: rgb(255, 18, 18);
+    color: #fff;
+}
+
+#Intro {
+    background: url('../images/backtd.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-txt {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.table {
+    border: none;
+}
+
+.table tr {
+    width: 100vw;
+}
+
+.table tr td, th {
+    width: 10%;
+    border: 2px solid red;
+    font-size: 10px;
+}
+
+.profit-percent {
+    width: 100%;
+    /* padding: 10px; */
+    background-color: green;
+    color: white;
+    text-align: right;
+    font-size: 12px;
+}
+
+.cal-date {
+    width: 13%;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.cal-days {
+    width: 13%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#Investment {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/invest.jpg");
+    min-height: 500px;
+    margin-top: 30px;
+}
+

@@ -1,0 +1,116 @@
+@media screen and (max-width: 768px){
+
+    html, body {
+        scroll-behavior: smooth;
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .cal-date {
+        font-size: 8px;
+    }
+
+    .cal-days {
+        font-size: 10px;
+    }
+
+    .profit-percent {
+        font-size: 8px;
+    }
+
+    .sm-heading {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    html, body {
+        scroll-behavior: smooth;
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .cal-date {
+        font-size: 8px;
+    }
+
+    .cal-days {
+        font-size: 9px;
+    }
+
+    .profit-percent {
+        font-size: 7px;
+    }
+
+    .sm-heading {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+
+    html, body {
+        scroll-behavior: smooth;
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .cal-date {
+        font-size: 6px;
+    }
+
+    .cal-days {
+        font-size: 6px;
+    }
+
+    .profit-percent {
+        font-size: 6px;
+    }
+
+    .sm-heading {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    html, body {
+        scroll-behavior: smooth;
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .cal-date {
+        font-size: 5px;
+    }
+
+    .cal-days {
+        font-size: 5px;
+    }
+
+    .profit-percent {
+        font-size: 5px;
+    }
+
+    .sm-heading {
+        font-size: 20px;
+    }
+}
